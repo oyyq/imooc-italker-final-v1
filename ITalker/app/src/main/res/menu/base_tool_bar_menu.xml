@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolbar_search"
+        android:icon="@drawable/ic_search"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+   <!-- app:actionViewClass="android.support.v7.widget.SearchView"-->
+    <item
+        android:id="@+id/toolbar_add"
+        android:icon="@drawable/ic_group_add"
+        android:title="添加"
+        app:showAsAction="always" />
+
+</menu>
